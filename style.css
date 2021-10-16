@@ -3,8 +3,8 @@
   font-family: 'Red Hat Display', sans-serif;
 }
 body{
-  width:99vw;
-  height:100vh;
+  max-width:100%;
+  overflow-x: hidden;
   background-image: url("images/pattern-background-desktop.svg");
   background-size:100vw;
   background-repeat: no-repeat;
@@ -15,6 +15,7 @@ body{
 }
 
 .Card-content{
+  margin-top:100px;
   align-items: center;
   width:450px;
   height:680px;
@@ -99,7 +100,7 @@ body{
   font-size:16px;
   color:hsl(225, 100%, 94%);
   box-shadow: 0 8px 16px 0, 0 6px 20px 0 hsl(224, 23%, 55%);
-  
+
 }
 
 #Payment-cancel-order{
@@ -112,5 +113,5 @@ body{
 
 .attribution{
   margin-top:150px;
-  margin-left:15px;
+  margin-left:20px;
 }
