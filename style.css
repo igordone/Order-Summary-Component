@@ -97,10 +97,16 @@ body{
   width:80%;
   height:50px;
   background-color: hsl(245, 75%, 52%);
+  font-weight:bold;
   font-size:16px;
   color:hsl(225, 100%, 94%);
-  box-shadow: 0 8px 16px 0, 0 6px 20px 0 hsl(224, 23%, 55%);
+  cursor:pointer;
+}
 
+#button-payment:hover{
+  box-shadow:none;
+  transition:2s;
+  box-shadow: 0 8px 16px 0, 0 6px 20px 0 hsl(224, 23%, 55%);
 }
 
 #Payment-cancel-order{
